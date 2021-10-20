@@ -154,7 +154,7 @@ section.bg-beige {
 }
 
 .content-img img {
-    width: 80%;
+    width: 100%;
 }
 
 .content-img {
@@ -187,6 +187,8 @@ section.bg-beige {
     margin-top: 1em;
 }
 
+
+/* bannerone di fine main */
 .content.banner {
     padding: 6em 1em;
 }
@@ -204,11 +206,12 @@ section.bg-beige {
     margin: 2em;
 }
 
-.pre-footer {
+/* prefooter */
+.final {
     padding: 1em;
 }
 
-.pre-footer h3 {
+.final h3 {
     display: inline-block;
     font-size: 1.5em;
     background-image: url(../img/stars.svg);
@@ -218,14 +221,17 @@ section.bg-beige {
 
 }
 
-.prefooter-btn a.btn.big {
+.final-btn a.btn.big {
     margin: 2em;
     background-color: #648AE8;
     color: white;
 }
 
-
-
+/* footer */
+footer {
+    width: 100%;
+    background-color: #0E0E0E;
+}
 
 
 
