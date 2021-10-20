@@ -98,6 +98,7 @@ a.btn {
 
 a.btn:hover {
     color: #265ee8;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
 }
 
 /* jumbo */
@@ -206,7 +207,7 @@ section.bg-beige {
     margin: 2em;
 }
 
-/* prefooter */
+/* container finale main */
 .final {
     padding: 1em;
 }
@@ -231,6 +232,84 @@ section.bg-beige {
 footer {
     width: 100%;
     background-color: #0E0E0E;
+    color: white;
+    padding: 3em 0;
+    font-size: 0.8em;
+}
+
+.col-big {
+    width: 30%;
+    margin-right: 4em;
+}
+
+.col-small {
+    width: 15%;
+    line-height: 1.8em;
+}
+
+.footer-title {
+    font-size: 1.8em;
+    color: #648AE8;
+}
+
+.langs {
+    margin-top: 1em;
+}
+
+.logo-flag {
+    height: 1em;
+}
+
+.social {
+    margin-top: 1em;
+}
+
+.social i{
+    margin-right: 1em;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+footer .social li {
+    display: inline-block;
+}
+
+footer .social a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-title-small {
+    color: #648AE8;
+}
+
+/* footer-final */
+.footer-final {
+    border-top: 1px solid #648AE8;
+    padding-top: 4em;
+    margin-top: 3em;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute.left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.absolute.right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.footer-final .btn {
+    background-color: #648AE8;
+    color: white;
 }
 
 
