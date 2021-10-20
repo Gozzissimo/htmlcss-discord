@@ -110,7 +110,7 @@ a.btn:hover {
 }
 
 .jumbo-title {
-    font-size: 3em;
+    font-size: 2.5em;
     margin-bottom: 1em;
 }
 
@@ -154,7 +154,7 @@ section.bg-beige {
 }
 
 .content-img img {
-    width: 100%;
+    width: 80%;
 }
 
 .content-img {
@@ -167,20 +167,65 @@ section.bg-beige {
     margin: 2em 1em;
 }
 
-.bg-white .content-img {
+.align-left {
     text-align: left;
 }
 
-.bg-beige .content-img {
+.align-right {
     text-align: right;
 }
 
+.align-center {
+    text-align: center;
+}
 
 .content h2 {
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 .content p {
     margin-top: 1em;
 }
+
+.content.banner {
+    padding: 6em 1em;
+}
+
+.content-img.banner img {
+    width: 100%;
+}
+
+.content-img.banner {
+    width: 100%;
+}
+
+.content-text.banner {
+    width: 100%;
+    margin: 2em;
+}
+
+.pre-footer {
+    padding: 1em;
+}
+
+.pre-footer h3 {
+    display: inline-block;
+    font-size: 1.5em;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1.5em 1em 0;
+
+}
+
+.prefooter-btn a.btn.big {
+    margin: 2em;
+    background-color: #648AE8;
+    color: white;
+}
+
+
+
+
+
 
