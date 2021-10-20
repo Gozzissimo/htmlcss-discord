@@ -15,9 +15,19 @@ html {
     display: table;
     clear: both;
 }
-/* /General Section */
+
+.w-80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.w-70 {
+    width: 70%;
+    margin: 0 auto;
+}
 
 
+/* header */
 header {
     background-image: url(../img/jumbo.png);
     width: 100%;
@@ -25,9 +35,8 @@ header {
     background-size: cover;
 }
 
+/* nav */
 nav {
-    width: 80%;
-    margin: 0 auto;
     text-align: center;
     height: 60px;
     line-height: 60px;
@@ -101,7 +110,8 @@ a.btn:hover {
 }
 
 .jumbo-title {
-    margin-bottom: 1.1em;
+    font-size: 3em;
+    margin-bottom: 1em;
 }
 
 .jumbo-desc {
@@ -111,6 +121,7 @@ a.btn:hover {
 
 a.btn.big{
     padding: 7px 23px;
+    margin: 0 1em;
 }
 
 a.btn.dark{
@@ -125,4 +136,51 @@ a.btn.dark:focus {
 }
 
 
+/* main */
+.float-left {
+    float: left;
+}
+
+section.bg-white {
+    background-color: white;
+}
+
+section.bg-beige {
+    background-color: #F6F6F6;
+}
+
+.content {
+    padding: 6em 1em;
+}
+
+.content-img img {
+    width: 100%;
+}
+
+.content-img {
+    width: calc(65% - 2em);
+    margin: 0 1em;
+}
+
+.content-text {
+    width: calc(30% - 2em);
+    margin: 2em 1em;
+}
+
+.bg-white .content-img {
+    text-align: left;
+}
+
+.bg-beige .content-img {
+    text-align: right;
+}
+
+
+.content h2 {
+    font-size: 3em;
+}
+
+.content p {
+    margin-top: 1em;
+}
 
